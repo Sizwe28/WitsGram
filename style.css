@@ -1,0 +1,158 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+#main{
+    
+    justify-content: space-around;
+    padding: 10px;
+ 
+
+}
+#profile{
+    position: fixed;
+    overflow-y: auto;
+    width: 20%;
+    height: 90%;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 10px 15px 10px hsl(0, 0%, 5%);
+
+}
+#profile img{
+    width:85%;
+    border-radius: 5%;
+}
+#profile span{
+    box-shadow: 1px 0 1px 1px  ;
+    font-size: 20px;
+}
+#profile a{
+    text-decoration: none;
+    color: whitesmoke;
+    width: 10px;
+}
+#profile button a{
+    font-weight: bold;
+    background-color: aliceblue;
+    color: black;
+}
+#content{
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px 5px hsl(0, 0%, 5%);
+    padding: 15px;
+    width: 75%;
+
+    margin-left: 23%;
+    margin-bottom: 2%;
+}
+
+.nav{
+    float: right;
+    border-radius: 5px;
+}
+.nav button{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+.nav button:hover{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+#content nav{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+#content nav div{
+    display: inline;
+
+}
+#content .what-i-do button{
+    border-radius: 10px;
+    width: 260px;
+    height: 200px;
+    margin: 5px;
+}
+.patners{
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    
+}
+
+#media a{
+    margin:0 25px 0 25px;
+}
+.testimonies{
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.testimonies button{
+    height: 300px;
+    width: 360px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.what-i-do{
+    display: none;
+}
+.projects a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin: 10px;
+}
+.projects{
+    display: none;
+}
+.projects div{
+    text-align: center;
+}
+.projects a:hover{
+    text-decoration: underline;
+
+}
+footer{
+    text-align: center;
+    border-top: 1px solid white;
+    margin-top: 10px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: black;
+    height: 7%;
+}
+@media only screen and (max-width:480px){
+    #content{
+        width:100%;
+        padding: 0;
+        margin-left: 0;
+        text-align: center;
+        justify-content: space-around;
+        margin-top: 25px;
+    }
+    #main{
+        justify-content: center;
+    }
+    #profile{
+        margin-left: 0;
+        width: 100%;
+        position: static;
+      
+    }
+}
